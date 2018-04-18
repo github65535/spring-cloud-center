@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sunlands.feo</groupId>
+    <artifactId>exam-center</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>exam-center</name>
+    <description>题库项目汇总</description>
+    <modules>
+        <module>../exam</module>
+        <module>../exam-job</module>
+        <module>../exam-operation</module>
+        <module>../wechat-msg</module>
+        <!--<module>../wechat-activity</module>-->
+    </modules>
+
+</project>
