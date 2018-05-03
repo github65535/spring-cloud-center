@@ -15,7 +15,7 @@
         <module>../exam-job</module>
         <module>../exam-operation</module>
         <module>../wechat-msg</module>
-        <!--<module>../wechat-activity</module>-->
+        <module>../wechat-activity</module>
     </modules>
 
     <parent>
