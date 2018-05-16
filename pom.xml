@@ -12,10 +12,22 @@
     <description>题库项目汇总</description>
     <modules>
         <module>../exam</module>
+        <!--任务处理-->
         <module>../exam-job</module>
+        <!--二维码工具-->
         <module>../exam-operation</module>
+        <!--带参二维码-->
         <module>../wechat-msg</module>
+        <!--微信活动-->
         <module>../wechat-activity</module>
+        <!--商品系统-->
+        <!--<module>../exam-commodity</module>-->
+        <!--题库订单、支付系统-->
+        <!--<module>../exam_order_pay</module>-->
+        <!--数据处理-->
+        <module>../exam-data</module>
+        <module>../exam-data2</module>
+        <module>../exam-data3</module>
     </modules>
 
     <parent>
