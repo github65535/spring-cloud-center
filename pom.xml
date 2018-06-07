@@ -6,19 +6,28 @@
     <groupId>com.sunlands.feo</groupId>
     <artifactId>exam-center</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>exam-center</name>
     <description>题库项目汇总</description>
     <modules>
         <module>../exam-commodity</module>
-        <module>../backend</module>
+        <module>../exam-parent</module>
+        <module>../exam</module>
+        <!--任务处理-->
+        <module>../exam-job</module>
+        <!--二维码工具-->
+        <module>../exam-operation</module>
+        <!--带参二维码-->
+        <module>../wechat-msg</module>
+        <!--微信活动-->
+        <module>../wechat-activity</module>
+        <!--商品系统-->
+        <module>../exam-commodity</module>
+        <!--题库订单、支付系统-->
+        <module>../exam-order-pay</module>
+        <!--数据处理-->
+        <module>../exam-data</module>
+        <module>../exam-data2</module>
+        <module>../exam-data3</module>
     </modules>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.7.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
-
 </project>
