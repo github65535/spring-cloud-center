@@ -17,6 +17,8 @@
         <module>adminserver</module>
         <module>feginclient1</module>
         <module>apigateway</module>
+        <module>configserver</module>
+        <module>configclient</module>
     </modules>
 
 </project>

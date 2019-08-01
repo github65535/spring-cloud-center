@@ -7,7 +7,7 @@
 
 ### 路由转发 两种方式
 * 传统方式 path + url
-* 面向服务 path + service-id (eureka)
+* 面向服务 path + serviceId (eureka)
 
 ````
 # 如：/api-a/hi 转发到对应服务的 /hi 路径
