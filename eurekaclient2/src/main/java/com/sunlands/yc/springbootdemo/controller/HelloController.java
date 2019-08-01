@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/api-a/hi")
+    @GetMapping("/hi")
     public Object hello(){
 //        return "hello ,this is demo client~";
         return "{\"key\":\"hi2\"}";

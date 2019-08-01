@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface HelloFeginService {
 
 //    @RequestMapping()
-    @GetMapping("/api-a/hi")
+    @GetMapping("/hi")
     Object getHi();
 }

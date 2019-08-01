@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 
-    @GetMapping("/api-a/hi")
+    @GetMapping("/hi")
     public Object hello(){
         return "{\"key\":\"hi1\"}";
 //        return "hello ,this is eurekaclient ~";
