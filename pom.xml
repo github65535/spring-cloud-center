@@ -2,50 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.sunlands.feo</groupId>
-    <artifactId>exam-center</artifactId>
+    <artifactId>pro-center</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>exam-center</name>
-    <description>题库项目汇总</description>
+    <name>pro-center</name>
+    <description>项目汇总</description>
     <modules>
-        <module>../exam-parent</module>
-        <module>../exam</module>
-        <!--任务处理-->
-        <module>../exam-job</module>
-        <!--助力服务-->
-        <module>../assist</module>
-        <module>../exam-data3</module>
-        <module>../exam-message</module>
-        <!--西柚小课-->
-        <module>../seeyou</module>
-        <module>../seeyou-job</module>
-        <!--<module>../sevenStarsCreator</module>-->
-        <module>../school-core</module>
-        <!--二维码工具-->
-        <!--<module>../exam-operation</module>-->
-        <!--带参二维码-->
-        <!--<module>../wechat-msg</module>-->
-        <!--微信活动-->
-        <!--<module>../wechat-activity</module>-->
-        <!--商品系统-->
-        <!--<module>../exam-commodity</module>-->
-        <!--题库订单、支付系统-->
-        <!--<module>../exam-order-pay</module>-->
-        <!--数据处理-->
-        <!--<module>../exam-data</module>-->
-        <!--<module>../exam-data2</module>-->
-        <!--<module>../spring-data-jpa</module>-->
-        <!--<module>../ocpa-backend</module>-->
-        <!--会计成绩查询python爬虫-->
-        <!--<module>../query-score-spider</module>-->
-        <!--会计成绩查询后端-->
-        <!--<module>../score_query_backend</module>-->
-        <!--会计成绩查询后端-升级版-->
-        <!--<module>../as-backend</module>-->
-        <!--<module>../../code/mother_baby_backend</module>-->
-        <!--<module>../seeyou-ops-qrcode</module>-->
-        <!--<module>../exam-shop-backend</module>-->
+        <module>eurekaservera</module>
+        <module>eurekaserverb</module>
+        <module>eurekaclient</module>
+        <module>eurekaclient2</module>
+        <module>consumerclient</module>
+        <module>adminserver</module>
+        <module>feginclient1</module>
+        <module>apigateway</module>
     </modules>
+
 </project>
