@@ -10,11 +10,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@EnableConfigServer
 @EnableDiscoveryClient
-@EnableEurekaClient
 @SpringBootApplication
-@RestController
 public class Configclient {
 
   public static void main(String[] args) {
@@ -24,12 +21,14 @@ public class Configclient {
   @RefreshScope
   @RestController
   class MessageRestController {
-
-    @Value("${foo:Hello default}")
+    @Value("${foo:this is default message}")
     private String message;
+    @Value("${message:this is default message}")
+    private String message2;
 
     @RequestMapping("/hi")
     String getMessage() {
+      System.out.println(message+";"+message2);
       return this.message;
     }
   }
